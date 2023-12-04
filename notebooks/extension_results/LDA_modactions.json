@@ -1,0 +1,47 @@
+[
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "LDA",
+        "Topic Numbers": 20,
+        "Computation Time": 29.60321545600891,
+        "Score Summary": {
+            "cv": 0.42142993205866,
+            "npmi": -0.06762509557420543,
+            "uci": -2.4746275027312814,
+            "diversity": 0.6,
+            "C_A": 0.08253062321587293,
+            "C_P": -0.6210327556367397
+        }
+    },
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "LDA",
+        "Topic Numbers": 30,
+        "Computation Time": 30.635700702667236,
+        "Score Summary": {
+            "cv": 0.3959295800263869,
+            "npmi": -0.09872241226742266,
+            "uci": -2.9071003933717554,
+            "diversity": 0.5633333333333334,
+            "C_A": 0.034522143597661765,
+            "C_P": -0.7153097069374119
+        }
+    },
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "LDA",
+        "Topic Numbers": 50,
+        "Computation Time": 53.119258403778076,
+        "Score Summary": {
+            "cv": 0.3793551271100345,
+            "npmi": -0.10003801193375793,
+            "uci": -3.064603095278481,
+            "diversity": 0.566,
+            "C_A": 0.02016289334734976,
+            "C_P": -0.6366318591361542
+        }
+    }
+]

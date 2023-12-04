@@ -1,0 +1,42 @@
+[
+    {
+        "Dataset": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/modactions",
+        "Dataset_size": 21247
+    },
+    {
+        "metrics": {
+            "cv": 0.3788995278296846,
+            "npmi": -0.10665721786151519,
+            "uci": -2.9660446195863073,
+            "umass": -5.746305355430389,
+            "diversity": 0.56
+        },
+        "params": {
+            "num_topics": 30
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.3561342989696059,
+            "npmi": -0.056054683449709895,
+            "uci": -1.5911498915367686,
+            "umass": -3.08320998854976,
+            "diversity": 0.458
+        },
+        "params": {
+            "num_topics": 50
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.3415384125836141,
+            "npmi": -0.10361728160463374,
+            "uci": -3.055268917569391,
+            "umass": -4.400522066715817,
+            "diversity": 0.582
+        },
+        "params": {
+            "num_topics": 100
+        }
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "Model": "BERTopic",
+        "Dataset": "modactions",
+        "Dataset_size": 18678
+    },
+    {
+        "metrics": {
+            "cv": 0.43878122147322,
+            "npmi": -0.02879757471188126,
+            "uci": -2.0304212142091984,
+            "umass": -4.869843148010871,
+            "diversity": 0.736734693877551,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6357433508825562,
+            "npmi": 0.34526152141254224,
+            "uci": 0.650278734859477,
+            "umass": -2.131103343162313,
+            "diversity": 0.37755102040816324,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.46185260201091366,
+            "npmi": -0.5371467266638797,
+            "uci": -16.42218638494063,
+            "umass": -14.751522937937581,
+            "diversity": 1.0,
+            "result_num_topic": 1
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.35909433336988383,
+            "npmi": -0.2614646425571862,
+            "uci": -8.873164420068445,
+            "umass": -19.036553692474282,
+            "diversity": 0.9,
+            "result_num_topic": 1
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.489605820678724,
+            "npmi": 0.009324112713747853,
+            "uci": -1.054091627777539,
+            "umass": -3.5037959823601774,
+            "diversity": 0.6714285714285714,
+            "result_num_topic": 42
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5821615965443846,
+            "npmi": 0.23842229847465266,
+            "uci": 0.4229369981444675,
+            "umass": -2.118441633675187,
+            "diversity": 0.4116279069767442,
+            "result_num_topic": 43
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.46155845707912635,
+            "npmi": 0.007437630876163642,
+            "uci": -0.8791019312962374,
+            "umass": -3.0302706381844384,
+            "diversity": 0.76,
+            "result_num_topic": 30
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4599182734500439,
+            "npmi": 0.12504906814747732,
+            "uci": -0.2918600943825843,
+            "umass": -2.1981297641013104,
+            "diversity": 0.4740740740740741,
+            "result_num_topic": 27
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    }
+]

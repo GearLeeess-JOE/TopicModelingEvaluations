@@ -1,0 +1,47 @@
+[
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "CTM_CUSTOM",
+        "Topic Numbers": 30,
+        "Computation Time": 261.95290517807007,
+        "Score Summary": {
+            "cv": 0.46203549454380405,
+            "npmi": -0.0038398859326829915,
+            "uci": -1.1443608390159357,
+            "diversity": 0.7466666666666667,
+            "C_A": 0.10358610361399681,
+            "C_P": -0.2638260978199752
+        }
+    },
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "CTM_CUSTOM",
+        "Topic Numbers": 50,
+        "Computation Time": 252.61853337287903,
+        "Score Summary": {
+            "cv": 0.4733132289530479,
+            "npmi": -0.015186193970125985,
+            "uci": -1.60013334280844,
+            "diversity": 0.702,
+            "C_A": 0.10490307707901585,
+            "C_P": -0.29874016089596256
+        }
+    },
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "CTM_CUSTOM",
+        "Topic Numbers": 100,
+        "Computation Time": 253.82498288154602,
+        "Score Summary": {
+            "cv": 0.468431943496318,
+            "npmi": -0.0182700038685953,
+            "uci": -1.6216627126466658,
+            "diversity": 0.55,
+            "C_A": 0.08477536901045044,
+            "C_P": -0.2773788520969622
+        }
+    }
+]

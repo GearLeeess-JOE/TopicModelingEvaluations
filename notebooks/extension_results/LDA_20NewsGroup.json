@@ -1,0 +1,47 @@
+[
+    {
+        "Dataset": "20NewsGroup",
+        "Dataset Size": 16309,
+        "Model": "LDA",
+        "Topic Numbers": 20,
+        "Computation Time": 12.869945049285889,
+        "Score Summary": {
+            "cv": 0.5508168062498824,
+            "npmi": 0.06202480001769526,
+            "uci": 0.22872848285253156,
+            "diversity": 0.77,
+            "C_A": 0.5125362534151684,
+            "C_P": 0.19793632607271622
+        }
+    },
+    {
+        "Dataset": "20NewsGroup",
+        "Dataset Size": 16309,
+        "Model": "LDA",
+        "Topic Numbers": 30,
+        "Computation Time": 13.304800510406494,
+        "Score Summary": {
+            "cv": 0.5616182010494738,
+            "npmi": 0.07274280045950676,
+            "uci": 0.33551828797449,
+            "diversity": 0.7366666666666667,
+            "C_A": 0.5650541967974765,
+            "C_P": 0.24463564942406582
+        }
+    },
+    {
+        "Dataset": "20NewsGroup",
+        "Dataset Size": 16309,
+        "Model": "LDA",
+        "Topic Numbers": 50,
+        "Computation Time": 16.29859209060669,
+        "Score Summary": {
+            "cv": 0.5600379427766863,
+            "npmi": 0.07578604472610945,
+            "uci": 0.2899197054524624,
+            "diversity": 0.73,
+            "C_A": 0.5076344342741751,
+            "C_P": 0.23424252747155927
+        }
+    }
+]

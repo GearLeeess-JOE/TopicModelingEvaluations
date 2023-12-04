@@ -1,0 +1,167 @@
+[
+    {
+        "Model": "BERTopic",
+        "Dataset": "modactions",
+        "Dataset_size": 21247
+    },
+    {
+        "metrics": {
+            "cv": 0.5805566163675987,
+            "npmi": 0.33065968417314157,
+            "uci": 0.7141657582559517,
+            "umass": -1.6905232062189166,
+            "diversity": 0.23061224489795917,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6022367013902592,
+            "npmi": 0.39763779399074695,
+            "uci": 0.3688306792859004,
+            "umass": -3.308180643929475,
+            "diversity": 0.45,
+            "result_num_topic": 6
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.49519199912297945,
+            "npmi": 0.18929528897780476,
+            "uci": -0.10996991859402765,
+            "umass": -1.515891150880078,
+            "diversity": 0.6666666666666666,
+            "result_num_topic": 3
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5728933237109946,
+            "npmi": 0.2872142030269207,
+            "uci": 0.7051710446507097,
+            "umass": -1.3090522448290862,
+            "diversity": 0.22040816326530613,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5876599263300936,
+            "npmi": 0.31532834517708597,
+            "uci": 0.7260076594146796,
+            "umass": -1.5349841366305954,
+            "diversity": 0.1919191919191919,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6482156290971312,
+            "npmi": 0.4098473937988098,
+            "uci": 1.261568774869656,
+            "umass": -1.3665708402209205,
+            "diversity": 0.16262626262626262,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.34424228761399833,
+            "npmi": -0.016183146615212137,
+            "uci": -1.3585852138544783,
+            "umass": -2.1375566412416314,
+            "diversity": 1.0,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5376125460414625,
+            "npmi": 0.23114487549415294,
+            "uci": 0.575087990694268,
+            "umass": -1.3892192846571996,
+            "diversity": 0.19041095890410958,
+            "result_num_topic": 73
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_roberta_base_drug_submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "Dataset": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/modactions",
+        "Dataset_size": 21247
+    },
+    {
+        "metrics": {
+            "cv": 0.4165115642140698,
+            "npmi": -0.03799256738634517,
+            "uci": -2.0405076848326624,
+            "umass": -4.75012420851722,
+            "diversity": 0.7724137931034483
+        },
+        "params": {
+            "nr_topics": 30,
+            "min_topic_size": 20,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "calculate_probabilities": false
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.42585645088789104,
+            "npmi": -0.0037432246490028058,
+            "uci": -0.37703504717543457,
+            "umass": -1.6875186682142305,
+            "diversity": 0.9
+        },
+        "params": {
+            "nr_topics": 30,
+            "min_topic_size": 100,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "calculate_probabilities": false
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.465694812420169,
+            "npmi": -0.02385631480341162,
+            "uci": -1.933981542355492,
+            "umass": -4.457894940711669,
+            "diversity": 0.7163265306122449
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "calculate_probabilities": false
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4737740851045942,
+            "npmi": -0.0015258469246008238,
+            "uci": -0.7472104990052009,
+            "umass": -1.9739895749818301,
+            "diversity": 0.9
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 100,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "calculate_probabilities": false
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.46219324990036764,
+            "npmi": -0.028288357797730868,
+            "uci": -2.2277606980337423,
+            "umass": -4.797576611945993,
+            "diversity": 0.6222222222222222
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "calculate_probabilities": false
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4148534678938066,
+            "npmi": -0.028861657556453035,
+            "uci": -0.6840312261377762,
+            "umass": -1.9939151994751245,
+            "diversity": 0.9
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 100,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "calculate_probabilities": false
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "Dataset": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/modactions",
+        "Dataset_size": 21247
+    },
+    {
+        "metrics": {
+            "cv": 0.4322719372274035,
+            "npmi": -0.09842231162899133,
+            "uci": -3.5276415917411796,
+            "umass": -7.010647965795806,
+            "diversity": 0.7833333333333333
+        },
+        "params": {
+            "num_topics": 30,
+            "bert_model": "all-MiniLM-L12-v2",
+            "use_partitions": false,
+            "num_epochs": 50
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.44391829183152737,
+            "npmi": -0.11240870038511065,
+            "uci": -3.7251343790505684,
+            "umass": -6.776869927035823,
+            "diversity": 0.734
+        },
+        "params": {
+            "num_topics": 50,
+            "bert_model": "all-MiniLM-L12-v2",
+            "use_partitions": false,
+            "num_epochs": 50
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.43046536540350994,
+            "npmi": -0.08408397964268355,
+            "uci": -3.1374353870699507,
+            "umass": -5.680303552004282,
+            "diversity": 0.553
+        },
+        "params": {
+            "num_topics": 100,
+            "bert_model": "all-MiniLM-L12-v2",
+            "use_partitions": false,
+            "num_epochs": 50
+        }
+    }
+]

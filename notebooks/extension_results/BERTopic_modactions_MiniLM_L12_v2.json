@@ -1,0 +1,47 @@
+[
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "BERTopic",
+        "Topic Numbers": 30,
+        "Computation Time": 29.541478872299194,
+        "Score Summary": {
+            "cv": 0.4086752369573725,
+            "npmi": 0.0029039394462226135,
+            "uci": 0.0690732288884952,
+            "diversity": 0.33,
+            "C_A": 0.0534787086515163,
+            "C_P": -0.828840791791242
+        }
+    },
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "BERTopic",
+        "Topic Numbers": 50,
+        "Computation Time": 16.889633655548096,
+        "Score Summary": {
+            "cv": 0.42824394167810725,
+            "npmi": 0.022273151162971478,
+            "uci": 0.08285852644844888,
+            "diversity": 0.402,
+            "C_A": 0.04644905899757851,
+            "C_P": -0.7544551815779313
+        }
+    },
+    {
+        "Dataset": "modactions",
+        "Dataset Size": 21247,
+        "Model": "BERTopic",
+        "Topic Numbers": 100,
+        "Computation Time": 16.897524118423462,
+        "Score Summary": {
+            "cv": 0.4464244114956069,
+            "npmi": 0.02514929295067777,
+            "uci": -0.6072352762632802,
+            "diversity": 0.552,
+            "C_A": 0.055728523352887194,
+            "C_P": -0.5808150393271395
+        }
+    }
+]

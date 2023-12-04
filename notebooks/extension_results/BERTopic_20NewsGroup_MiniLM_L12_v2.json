@@ -1,0 +1,47 @@
+[
+    {
+        "Dataset": "20NewsGroup",
+        "Dataset Size": 16309,
+        "Model": "BERTopic",
+        "Topic Numbers": 30,
+        "Computation Time": 36.934081077575684,
+        "Score Summary": {
+            "cv": 0.6979868488409394,
+            "npmi": 0.16305441566598347,
+            "uci": 1.2572633154001365,
+            "diversity": 0.83,
+            "C_A": 0.5725738713443352,
+            "C_P": 0.4092925627507022
+        }
+    },
+    {
+        "Dataset": "20NewsGroup",
+        "Dataset Size": 16309,
+        "Model": "BERTopic",
+        "Topic Numbers": 50,
+        "Computation Time": 9.828228950500488,
+        "Score Summary": {
+            "cv": 0.6396244330746703,
+            "npmi": 0.14327154772729161,
+            "uci": 1.0605844936904285,
+            "diversity": 0.748,
+            "C_A": 0.5583143649491863,
+            "C_P": 0.3621883737086404
+        }
+    },
+    {
+        "Dataset": "20NewsGroup",
+        "Dataset Size": 16309,
+        "Model": "BERTopic",
+        "Topic Numbers": 100,
+        "Computation Time": 9.049693822860718,
+        "Score Summary": {
+            "cv": 0.6153285818005434,
+            "npmi": 0.12851718959015818,
+            "uci": 0.8532571275639496,
+            "diversity": 0.7126984126984127,
+            "C_A": 0.5309266715754523,
+            "C_P": 0.32264953426140797
+        }
+    }
+]

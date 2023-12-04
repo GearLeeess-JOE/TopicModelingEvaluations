@@ -1,0 +1,247 @@
+[
+    {
+        "Model": "BERTopic",
+        "Dataset": "modactions",
+        "Dataset_size": 21247
+    },
+    {
+        "metrics": {
+            "cv": 0.49285135698231625,
+            "npmi": 0.0043688617144173394,
+            "uci": -1.2835448534440133,
+            "umass": -3.6789877063832757,
+            "diversity": 0.7061224489795919,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5565004806979936,
+            "npmi": 0.1921348907185274,
+            "uci": -0.09419143078514403,
+            "umass": -2.4822841950669017,
+            "diversity": 0.44285714285714284,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5456331139608916,
+            "npmi": 0.17656752403943293,
+            "uci": 0.002776587451946535,
+            "umass": -2.420917566414147,
+            "diversity": 0.44081632653061226,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.45066170320692883,
+            "npmi": -0.0024832341180442276,
+            "uci": -0.9796683116956045,
+            "umass": -2.8262411948883885,
+            "diversity": 0.6741935483870968,
+            "result_num_topic": 31
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4893163342814811,
+            "npmi": 0.1471955106756037,
+            "uci": -0.3017073732488749,
+            "umass": -2.6088585887805404,
+            "diversity": 0.47419354838709676,
+            "result_num_topic": 31
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5053461568464481,
+            "npmi": 0.18936052679336673,
+            "uci": 0.17311144157708006,
+            "umass": -1.9541002719252027,
+            "diversity": 0.43333333333333335,
+            "result_num_topic": 30
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5125127144736961,
+            "npmi": 0.013356056964349338,
+            "uci": -1.210350594565727,
+            "umass": -3.690602978499092,
+            "diversity": 0.6466666666666666,
+            "result_num_topic": 60
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 50,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5656683344836189,
+            "npmi": 0.21582545179351242,
+            "uci": -0.021746826980100678,
+            "umass": -2.44226742728096,
+            "diversity": 0.396969696969697,
+            "result_num_topic": 66
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 50,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5635734909175512,
+            "npmi": 0.21233664999230278,
+            "uci": 0.29896096710113357,
+            "umass": -2.190708523012324,
+            "diversity": 0.4152542372881356,
+            "result_num_topic": 59
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 50,
+            "embedding_model": "all-MiniLM-L12-v2",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4446030739538868,
+            "npmi": -0.013677894055225,
+            "uci": -1.2948736375555192,
+            "umass": -2.736176596232773,
+            "diversity": 0.7214285714285714,
+            "result_num_topic": 28
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4779619324975681,
+            "npmi": 0.15791075235141253,
+            "uci": -0.0055280540822264,
+            "umass": -2.031658500959117,
+            "diversity": 0.4633333333333333,
+            "result_num_topic": 30
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4876812384488204,
+            "npmi": 0.18258901235301545,
+            "uci": 0.22827434693564094,
+            "umass": -1.9866489075729228,
+            "diversity": 0.40344827586206894,
+            "result_num_topic": 29
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 50,
+            "embedding_model": "/home/kw215/Documents/research_codes/Topic-modeling-evaluations/evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions",
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    }
+]

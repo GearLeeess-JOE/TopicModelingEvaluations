@@ -1,0 +1,2311 @@
+[
+    {
+        "Model": "BERTopic",
+        "Dataset": "modactions",
+        "Dataset_size": 21247
+    },
+    {
+        "metrics": {
+            "cv": 0.5928640291159738,
+            "npmi": 0.26740741140888014,
+            "uci": -0.08435627158550807,
+            "umass": -2.763453703102058,
+            "diversity": 0.3795918367346939,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6399594660523613,
+            "npmi": 0.340758622149427,
+            "uci": 0.41517076616542475,
+            "umass": -2.110093541410378,
+            "diversity": 0.34285714285714286,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4379451753214053,
+            "npmi": 0.10542181596572887,
+            "uci": -0.21074037986431726,
+            "umass": -2.104441284863283,
+            "diversity": 0.39387755102040817,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4444387144816977,
+            "npmi": 0.11838531568351095,
+            "uci": -0.19664620780925146,
+            "umass": -2.152034660695143,
+            "diversity": 0.35714285714285715,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5792573327372802,
+            "npmi": 0.26492224520120844,
+            "uci": -0.2112245570451841,
+            "umass": -2.9661411246737037,
+            "diversity": 0.39387755102040817,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6303243914655036,
+            "npmi": 0.3524773739277516,
+            "uci": 0.5455146800654771,
+            "umass": -2.191039848828872,
+            "diversity": 0.3408163265306122,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.42201909054441694,
+            "npmi": 0.08278312452969216,
+            "uci": -0.5530814976464749,
+            "umass": -2.4089085741515803,
+            "diversity": 0.42448979591836733,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.42711266729064523,
+            "npmi": 0.08965936976369904,
+            "uci": -0.37703920509219796,
+            "umass": -2.2772438413078038,
+            "diversity": 0.39387755102040817,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6069151861302369,
+            "npmi": 0.27998047316967983,
+            "uci": 0.016627678005474166,
+            "umass": -2.6022168543974566,
+            "diversity": 0.39183673469387753,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6489313895122255,
+            "npmi": 0.35701462100180087,
+            "uci": 0.6300087140365224,
+            "umass": -1.982508717680298,
+            "diversity": 0.336734693877551,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4043116564397234,
+            "npmi": 0.06407796764014635,
+            "uci": -0.6980585676854675,
+            "umass": -2.53548519464279,
+            "diversity": 0.42448979591836733,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.408322216452214,
+            "npmi": 0.06810533230101057,
+            "uci": -0.5842980666203642,
+            "umass": -2.201157463056246,
+            "diversity": 0.4204081632653061,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6371731849684796,
+            "npmi": 0.34570437906911033,
+            "uci": 0.5455405328236081,
+            "umass": -2.1213735305757244,
+            "diversity": 0.35714285714285715,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6804704529049159,
+            "npmi": 0.42110560816815473,
+            "uci": 1.1467112970813715,
+            "umass": -1.6953619158990267,
+            "diversity": 0.3122448979591837,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5368276190467832,
+            "npmi": 0.21241748169710406,
+            "uci": 0.01701378333905034,
+            "umass": -1.9284395502014586,
+            "diversity": 0.373469387755102,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5008567882105921,
+            "npmi": 0.1808835755113901,
+            "uci": -0.1694754661073247,
+            "umass": -1.8907946940420584,
+            "diversity": 0.3816326530612245,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6242606652612258,
+            "npmi": 0.3220509553557898,
+            "uci": 0.46057793756491516,
+            "umass": -2.124575205829529,
+            "diversity": 0.38571428571428573,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6714494014704635,
+            "npmi": 0.39621959640485194,
+            "uci": 0.9921313534990394,
+            "umass": -1.7525805603491655,
+            "diversity": 0.3346938775510204,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5163331435363815,
+            "npmi": 0.18421285262173712,
+            "uci": -0.09671467029673776,
+            "umass": -2.1296998204479305,
+            "diversity": 0.38979591836734695,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.49169742484513457,
+            "npmi": 0.16529479450472517,
+            "uci": -0.24744596296523752,
+            "umass": -1.9597647341635287,
+            "diversity": 0.3836734693877551,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6146373070802539,
+            "npmi": 0.30581353306927606,
+            "uci": -0.0023111730403550805,
+            "umass": -2.499182811151026,
+            "diversity": 0.39183673469387753,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6545586759197098,
+            "npmi": 0.38660491548164416,
+            "uci": 0.648945877111394,
+            "umass": -2.1607923902639916,
+            "diversity": 0.3551020408163265,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5207822443292253,
+            "npmi": 0.21829030287426637,
+            "uci": -0.003558663647084466,
+            "umass": -2.2720992030833256,
+            "diversity": 0.35918367346938773,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.49152490118723646,
+            "npmi": 0.1695963142622826,
+            "uci": -0.10734674028095206,
+            "umass": -2.0862290704046687,
+            "diversity": 0.37142857142857144,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5485981841662748,
+            "npmi": 0.1994329452829527,
+            "uci": -0.4119594043036758,
+            "umass": -2.5374177737611294,
+            "diversity": 0.4204081632653061,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.553649954881177,
+            "npmi": 0.22032144126839517,
+            "uci": -0.22859775976349134,
+            "umass": -2.399955616546534,
+            "diversity": 0.4020408163265306,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.37461473589028615,
+            "npmi": 0.00032690583385226025,
+            "uci": -0.7880152814767186,
+            "umass": -2.374277718390794,
+            "diversity": 0.45714285714285713,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.385541464537792,
+            "npmi": 0.012769181297252883,
+            "uci": -0.5841841646067869,
+            "umass": -2.122588830530118,
+            "diversity": 0.45918367346938777,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6648164927331155,
+            "npmi": 0.3840940755840171,
+            "uci": 1.5268656308747697,
+            "umass": -1.0551586978738126,
+            "diversity": 0.6,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6648164927331155,
+            "npmi": 0.3840940755840171,
+            "uci": 1.5268656308747697,
+            "umass": -1.0933069404847984,
+            "diversity": 0.6,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.36587986577044534,
+            "npmi": 0.001799760596702468,
+            "uci": -0.01408234754645002,
+            "umass": -0.839472699093404,
+            "diversity": 0.8,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.36268049634354366,
+            "npmi": -0.0027871954568906903,
+            "uci": -0.03672245968812107,
+            "umass": -0.8739853199783063,
+            "diversity": 0.85,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5548676939190895,
+            "npmi": 0.21875041558797603,
+            "uci": -0.2759670921063296,
+            "umass": -2.30865814450393,
+            "diversity": 0.40408163265306124,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5684624381411694,
+            "npmi": 0.2385018803119729,
+            "uci": -0.057968355090544016,
+            "umass": -2.0893829319909316,
+            "diversity": 0.3877551020408163,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.3765007399197898,
+            "npmi": 0.020122349151071105,
+            "uci": -0.5295504618516473,
+            "umass": -2.394232516599362,
+            "diversity": 0.4530612244897959,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.3793053355142201,
+            "npmi": 0.018511692929103006,
+            "uci": -0.4567529308766296,
+            "umass": -2.0951884723200154,
+            "diversity": 0.4142857142857143,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6305233282991461,
+            "npmi": 0.34798389914368927,
+            "uci": 0.4532578351160026,
+            "umass": -2.0576570646585712,
+            "diversity": 0.3795918367346939,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.671367541055134,
+            "npmi": 0.4092130960895193,
+            "uci": 0.9566152119504628,
+            "umass": -1.6340409723450817,
+            "diversity": 0.34285714285714286,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4369216271201788,
+            "npmi": 0.07741433480022819,
+            "uci": -0.5262506572434295,
+            "umass": -2.2244952801240254,
+            "diversity": 0.44285714285714284,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4275545729848065,
+            "npmi": 0.06369670376857159,
+            "uci": -0.4410310649608211,
+            "umass": -2.0770545512929965,
+            "diversity": 0.42653061224489797,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6057309281310771,
+            "npmi": 0.31592614369349564,
+            "uci": 0.07496206427289899,
+            "umass": -2.2666498544037066,
+            "diversity": 0.37551020408163266,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6315352314461288,
+            "npmi": 0.35786334848706647,
+            "uci": 0.36125067332891875,
+            "umass": -2.12606482587129,
+            "diversity": 0.363265306122449,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4326249632647157,
+            "npmi": 0.07243470897369184,
+            "uci": -0.5833053094336487,
+            "umass": -2.3750829961859488,
+            "diversity": 0.4530612244897959,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4233869521413627,
+            "npmi": 0.061643854065638236,
+            "uci": -0.5639369591735349,
+            "umass": -2.2756209271599883,
+            "diversity": 0.4346938775510204,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.581061468225956,
+            "npmi": 0.2564718939722313,
+            "uci": 0.292642999757561,
+            "umass": -2.2333752014695767,
+            "diversity": 0.4,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.613888566831084,
+            "npmi": 0.3141914753725676,
+            "uci": 0.6944037542974599,
+            "umass": -1.9451747423898365,
+            "diversity": 0.37755102040816324,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.442235535900932,
+            "npmi": 0.08258931201149411,
+            "uci": -0.4627223786984691,
+            "umass": -2.1130387532056107,
+            "diversity": 0.42653061224489797,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.42379098933370535,
+            "npmi": 0.07374256922321433,
+            "uci": -0.3148739670763068,
+            "umass": -2.083287208637369,
+            "diversity": 0.4061224489795918,
+            "result_num_topic": 49
+        },
+        "params": {
+            "nr_topics": 50,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6162407719214752,
+            "npmi": 0.31755404193805553,
+            "uci": 0.08239339037623711,
+            "umass": -2.5890283918684984,
+            "diversity": 0.30808080808080807,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6607878885583465,
+            "npmi": 0.38909745023453923,
+            "uci": 0.6717751045072812,
+            "umass": -2.015113452338477,
+            "diversity": 0.2727272727272727,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.44849047560986177,
+            "npmi": 0.1121444069887741,
+            "uci": -0.774683667869158,
+            "umass": -2.686743007928734,
+            "diversity": 0.4070707070707071,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.44678862375386813,
+            "npmi": 0.10928720175327945,
+            "uci": -0.5923013722205671,
+            "umass": -2.4731987719178363,
+            "diversity": 0.38585858585858585,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6181419758831808,
+            "npmi": 0.32989854815556374,
+            "uci": 0.18360720042623782,
+            "umass": -2.789967989475343,
+            "diversity": 0.30505050505050507,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6689642355086417,
+            "npmi": 0.4082290953980081,
+            "uci": 0.8052324205382863,
+            "umass": -2.112289676457821,
+            "diversity": 0.2686868686868687,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.443816697904987,
+            "npmi": 0.09729317880251011,
+            "uci": -0.9639936828442501,
+            "umass": -2.772804766046316,
+            "diversity": 0.4202020202020202,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4398486907534091,
+            "npmi": 0.10012277090312098,
+            "uci": -0.6722115916741331,
+            "umass": -2.5645543979910466,
+            "diversity": 0.3787878787878788,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6186218856847899,
+            "npmi": 0.3251909258118937,
+            "uci": 0.08601010519066074,
+            "umass": -2.3768380948607954,
+            "diversity": 0.2909090909090909,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6661888349494228,
+            "npmi": 0.4160006180710842,
+            "uci": 0.8678427295930773,
+            "umass": -1.8596775468337485,
+            "diversity": 0.25353535353535356,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4456526068461342,
+            "npmi": 0.11225558135216633,
+            "uci": -0.8032783055649151,
+            "umass": -2.8485830750387806,
+            "diversity": 0.3898989898989899,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4456881862623756,
+            "npmi": 0.114487986163592,
+            "uci": -0.4456913461488306,
+            "umass": -2.2707270320424535,
+            "diversity": 0.3565656565656566,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6578668322418387,
+            "npmi": 0.39821148695433545,
+            "uci": 0.6234455841538126,
+            "umass": -2.120092220179549,
+            "diversity": 0.2919191919191919,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.7028221605452466,
+            "npmi": 0.46762887106096634,
+            "uci": 1.0764715773077185,
+            "umass": -1.7277712621631534,
+            "diversity": 0.2585858585858586,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5328315094060441,
+            "npmi": 0.2291023685805709,
+            "uci": -0.20208536206969577,
+            "umass": -2.4087702684630807,
+            "diversity": 0.3595959595959596,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5149673638065003,
+            "npmi": 0.20436056456971166,
+            "uci": -0.12483308126369724,
+            "umass": -2.0493801814006414,
+            "diversity": 0.3373737373737374,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6702203609646527,
+            "npmi": 0.4057888571481056,
+            "uci": 0.7015534555597688,
+            "umass": -2.0186118529064934,
+            "diversity": 0.30505050505050507,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.7146171981612109,
+            "npmi": 0.48175094701999577,
+            "uci": 1.2412728783993934,
+            "umass": -1.6500356974188777,
+            "diversity": 0.2696969696969697,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5350297604151026,
+            "npmi": 0.2236087440358983,
+            "uci": -0.2331872839308354,
+            "umass": -2.3755716437943595,
+            "diversity": 0.3515151515151515,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5205516855766986,
+            "npmi": 0.20633752764297245,
+            "uci": -0.1649786234713339,
+            "umass": -2.0818666185868264,
+            "diversity": 0.3373737373737374,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6505157117963292,
+            "npmi": 0.38196946442163,
+            "uci": 0.44627283319130034,
+            "umass": -2.265447761728129,
+            "diversity": 0.3,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6891374510733312,
+            "npmi": 0.4422717687291577,
+            "uci": 0.8975621477281095,
+            "umass": -1.8815973392107206,
+            "diversity": 0.2696969696969697,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5501019773735067,
+            "npmi": 0.24201129320678366,
+            "uci": -0.18548178991899567,
+            "umass": -2.4722249470717683,
+            "diversity": 0.35454545454545455,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.5322846143536442,
+            "npmi": 0.21345296174349807,
+            "uci": -0.07357354180920293,
+            "umass": -2.2751586264017747,
+            "diversity": 0.3595959595959596,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 10,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.623504562866395,
+            "npmi": 0.32571890133429315,
+            "uci": 0.24890551605109812,
+            "umass": -2.1962444133860832,
+            "diversity": 0.29292929292929293,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6439276152333611,
+            "npmi": 0.3640105898021964,
+            "uci": 0.5691550927658372,
+            "umass": -1.9902774534863812,
+            "diversity": 0.2868686868686869,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.40318270574948556,
+            "npmi": 0.04086727377463453,
+            "uci": -1.127454794956889,
+            "umass": -2.739957977264231,
+            "diversity": 0.4222222222222222,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.39991084537377114,
+            "npmi": 0.0371455769284106,
+            "uci": -0.8671956693852582,
+            "umass": -2.5591250320357792,
+            "diversity": 0.41515151515151516,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6648164927331155,
+            "npmi": 0.3840940755840171,
+            "uci": 1.5268656308747697,
+            "umass": -1.0551586978738126,
+            "diversity": 0.6,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6648164927331155,
+            "npmi": 0.3840940755840171,
+            "uci": 1.5268656308747697,
+            "umass": -1.0933069404847984,
+            "diversity": 0.6,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.36587986577044534,
+            "npmi": 0.001799760596702468,
+            "uci": -0.01408234754645002,
+            "umass": -0.839472699093404,
+            "diversity": 0.8,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.36268049634354366,
+            "npmi": -0.0027871954568906903,
+            "uci": -0.03672245968812107,
+            "umass": -0.8739853199783063,
+            "diversity": 0.85,
+            "result_num_topic": 2
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.603182176844788,
+            "npmi": 0.29002842211985685,
+            "uci": 0.032304082932059885,
+            "umass": -2.371610612469734,
+            "diversity": 0.3090909090909091,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6311095237287135,
+            "npmi": 0.3343455002853392,
+            "uci": 0.5143611222347444,
+            "umass": -2.0143585662914645,
+            "diversity": 0.295959595959596,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.3928649682948052,
+            "npmi": 0.03634438161604413,
+            "uci": -1.028083287979103,
+            "umass": -2.801168007573437,
+            "diversity": 0.4212121212121212,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.38585207608485345,
+            "npmi": 0.03621084992200317,
+            "uci": -0.7228388199924245,
+            "umass": -2.5200190388134645,
+            "diversity": 0.3929292929292929,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "all-mpnet-base-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6401381376420572,
+            "npmi": 0.3568446215187883,
+            "uci": 0.3817474057528744,
+            "umass": -2.0699998024856145,
+            "diversity": 0.30104166666666665,
+            "result_num_topic": 96
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6510161984332353,
+            "npmi": 0.39091093948920275,
+            "uci": 0.7229905193724934,
+            "umass": -1.8937295737152897,
+            "diversity": 0.28020833333333334,
+            "result_num_topic": 96
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4659529785718172,
+            "npmi": 0.11246297654303254,
+            "uci": -0.6669610149862301,
+            "umass": -2.454505480809508,
+            "diversity": 0.4,
+            "result_num_topic": 96
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.45256961996834305,
+            "npmi": 0.09391577323482551,
+            "uci": -0.5044270729819886,
+            "umass": -2.267041496641189,
+            "diversity": 0.38125,
+            "result_num_topic": 96
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 15
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6347858864127739,
+            "npmi": 0.36496127650873045,
+            "uci": 0.3587668805304573,
+            "umass": -2.30974488060937,
+            "diversity": 0.28585858585858587,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6480980107108693,
+            "npmi": 0.38677942478635824,
+            "uci": 0.5703826550072962,
+            "umass": -2.1039943906236473,
+            "diversity": 0.2737373737373737,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.47375285517283405,
+            "npmi": 0.12285997766847995,
+            "uci": -0.6414194075752578,
+            "umass": -2.542123736822051,
+            "diversity": 0.39595959595959596,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.44548282564537967,
+            "npmi": 0.09233810676107315,
+            "uci": -0.593879306588251,
+            "umass": -2.431493601390774,
+            "diversity": 0.3878787878787879,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 10,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6228609524919205,
+            "npmi": 0.322256418035536,
+            "uci": 0.3499713713853304,
+            "umass": -2.0895861658296084,
+            "diversity": 0.30808080808080807,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.6445050944892711,
+            "npmi": 0.3548391030343625,
+            "uci": 0.5596902256432101,
+            "umass": -1.9052505175472387,
+            "diversity": 0.28585858585858587,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "KeyBERT",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.45859455893118506,
+            "npmi": 0.10123078231200767,
+            "uci": -0.739540869568857,
+            "umass": -2.520658654957411,
+            "diversity": 0.3797979797979798,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "metrics": {
+            "cv": 0.4558546282725482,
+            "npmi": 0.09817982868221364,
+            "uci": -0.37829667932500627,
+            "umass": -2.0634985509572115,
+            "diversity": 0.3515151515151515,
+            "result_num_topic": 99
+        },
+        "params": {
+            "nr_topics": 100,
+            "min_topic_size": 20,
+            "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+            "UMAP_PARAMS": {
+                "n_neighbors": 5,
+                "n_components": 8
+            },
+            "representation_model": "MMR",
+            "n_gram_range": [
+                1,
+                3
+            ]
+        }
+    }
+]
