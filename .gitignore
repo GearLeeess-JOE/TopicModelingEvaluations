@@ -3,3 +3,5 @@ evaluation/tsdae_all_MiniLM-v12-v2-drug-submissions
 evaluation/tsdae_all-MiniLM-L12-v2-3epoch
 evaluation/tsdae_roberta_base_drug_submissions
 evaluation/__pycache__
+evaluation/_train.pkl
+evaluation/.ipynb_checkpoints
